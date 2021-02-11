@@ -8,6 +8,7 @@ import com.jt.common.vo.JsonResult;
 
 @ControllerAdvice
 public class GlobalExceptionHandler {
+
     @ExceptionHandler(Exception.class)
     @ResponseBody
     public JsonResult doHandleException(Exception e) {

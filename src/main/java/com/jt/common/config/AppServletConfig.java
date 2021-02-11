@@ -17,8 +17,6 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 @EnableWebMvc //启动mvc默认配置
 public class AppServletConfig extends WebMvcConfigurerAdapter {
 
-
-
     /**
      * 配置视图解析器
      */
